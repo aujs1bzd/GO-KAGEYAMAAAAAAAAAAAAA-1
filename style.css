@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid; /* グリッドを使う */
+    grid-template-columns: repeat(4, auto); /* 列の数と幅を指定 */
+    grid-auto-rows: auto; /* 行の高さを自動にする */
+    gap: 10px; /* グリッドの隙間を指定 */
+    background-image: url("bk.jpg"); /* 背景画像を指定 */
+    height: 100vh; /* 画面の高さに合わせる */
+  }
+  
+  .icon {
+    width: calc(100% - 20px); /* アイコンの幅を指定（隙間分を引く） */
+    height: calc(100% - 20px); /* アイコンの高さを指定（隙間分を引く） */
+    height: 100%; /* グリッドの行の高さに合わせる */
+  }
+  
+  .icon img {
+    width: 100%; /* アイコン画像の幅を指定 */
+    height: auto; /* アイコン画像の高さを自動にする */
+  }
+  
